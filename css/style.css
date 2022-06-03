@@ -1,0 +1,85 @@
+:root {
+  /* Color */
+  --blue-color: rgb(59, 142, 219);
+  --yellow-color: rgb(218, 203, 76);
+  --red-color: rgb(218, 83, 83);
+  --white-color: azure;
+  --black-color: rgb(51, 51, 51);
+
+  /* Size */
+  --padding: 10px;
+  --margin: 5px;
+  --radius: 20px;
+
+  /* Font Size */
+  --font-medium: 15px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(226, 191, 197);
+}
+
+button:hover {
+  transform: scale(0.96);
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  width: 250px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.menu button {
+  width: 85px;
+  height: 45px;
+  padding: var(--padding);
+  margin: var(--margin);
+  font-size: var(--font-medium);
+  font-weight: bold;
+  background-color: var(--black-color);
+  color: var(--white-color);
+  border-radius: var(--radius);
+  border: none;
+}
+
+#blue {
+  background-color: var(--blue-color);
+}
+
+#yellow {
+  background-color: var(--yellow-color);
+}
+
+#red {
+  background-color: var(--red-color);
+}
+
+.clothes_list {
+  list-style: none;
+  text-align: center;
+  padding: var(--padding);
+  margin: var(--margin);
+  font-size: var(--font-medium);
+}
+
+.clothes_list li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 600px;
+  margin: var(--margin);
+  height: 50px;
+}

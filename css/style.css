@@ -9,7 +9,7 @@
   /* Size */
   --padding: 10px;
   --margin: 5px;
-  --radius: 20px;
+  --radius: 7px;
 
   /* Font Size */
   --font-medium: 15px;
@@ -72,14 +72,21 @@ button:hover {
   text-align: center;
   padding: var(--padding);
   margin: var(--margin);
-  font-size: var(--font-medium);
 }
 
-.clothes_list li {
+.clothes_list .clothes {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 600px;
   margin: var(--margin);
   height: 50px;
+  border-radius: var(--radius);
+  background-color: var(--white-color);
+  font-size: var(--font-medium);
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
 }

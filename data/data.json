@@ -1,0 +1,109 @@
+{
+  "items": [
+    {
+      "type": "tshirt",
+      "gender": "female",
+      "color": "pink",
+      "image": "../img/pink_t.png",
+      "size": "large"
+    },
+    {
+      "type": "skirts",
+      "gender": "male",
+      "color": "yellow",
+      "image": "../img/yellow_s.png",
+      "size": "large"
+    },
+    {
+      "type": "skirts",
+      "gender": "male",
+      "color": "pink",
+      "image": "../img/pink_s.png",
+      "size": "small"
+    },
+    {
+      "type": "tshirt",
+      "gender": "female",
+      "color": "pink",
+      "image": "../img/pink_t.png",
+      "size": "small"
+    },
+    {
+      "type": "tshirt",
+      "gender": "female",
+      "color": "yellow",
+      "image": "../img/yellow_t.png",
+      "size": "large"
+    },
+    {
+      "type": "pants",
+      "gender": "female",
+      "color": "blue",
+      "image": "../img/blue_p.png",
+      "size": "small"
+    },
+    {
+      "type": "pants",
+      "gender": "female",
+      "color": "blue",
+      "image": "../img/blue_p.png",
+      "size": "large"
+    },
+    {
+      "type": "pants",
+      "gender": "male",
+      "color": "pink",
+      "image": "../img/pink_p.png",
+      "size": "large"
+    },
+    {
+      "type": "tshirt",
+      "gender": "male",
+      "color": "blue",
+      "image": "../img/blue_t.png",
+      "size": "small"
+    },
+    {
+      "type": "tshirt",
+      "gender": "female",
+      "color": "yellow",
+      "image": "../img/yellow_t.png",
+      "size": "large"
+    },
+    {
+      "type": "skirts",
+      "gender": "female",
+      "color": "pink",
+      "image": "../img/pink_s.png",
+      "size": "small"
+    },
+    {
+      "type": "pants",
+      "gender": "male",
+      "color": "pink",
+      "image": "../img/pink_p.png",
+      "size": "large"
+    },
+    {
+      "type": "pants",
+      "gender": "male",
+      "color": "yellow",
+      "image": "../img/yellow_p.png",
+      "size": "small"
+    },
+    {
+      "type": "tshirt",
+      "gender": "female",
+      "color": "blue",
+      "image": "../img/blue_t.png",
+      "size": "large"
+    },
+    {
+      "type": "skirts",
+      "gender": "male",
+      "color": "blue",
+      "image": "../img/blue_s.png",
+      "size": "large"
+    }
+  ]
+}

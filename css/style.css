@@ -1,90 +1,103 @@
 :root {
   /* Color */
-  --blue-color: rgb(59, 142, 219);
-  --yellow-color: rgb(218, 203, 76);
-  --red-color: rgb(218, 83, 83);
-  --white-color: azure;
-  --black-color: rgb(51, 51, 51);
+  --color-black: #3f454d;
+  --color-white: azure;
+  --color-blue: #3b88c3;
+  --color-yellow: #fbbe28;
+  --color-pink: #fd7f84;
+  --color-light-grey: #dfdfdf;
 
-  /* Size */
-  --padding: 10px;
-  --margin: 5px;
-  --radius: 7px;
+  /* size */
+  --base-space: 8px;
+  --size-button: 60px;
+  --size-border: 4px;
+  --size-thumbnail: 50px;
+  --font-size: 18px;
 
-  /* Font Size */
-  --font-medium: 15px;
+  /* Animation */
+  --animation-duration: 300ms;
 }
 
 body {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(226, 191, 197);
-}
-
-button:hover {
-  transform: scale(0.96);
+  background-color: var(--color-black);
 }
 
 .logo {
-  text-align: center;
+  cursor: pointer;
+  transition: transform var(--animation-duration) ease;
 }
 
-.logo img {
-  width: 250px;
+.btn:hover,
+.logo:hover {
+  transform: scale(1.1);
 }
 
-.menu {
+.buttons {
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  width: 100%;
 }
 
-.menu button {
-  width: 85px;
-  height: 45px;
-  padding: var(--padding);
-  margin: var(--margin);
-  font-size: var(--font-medium);
-  font-weight: bold;
-  background-color: var(--black-color);
-  color: var(--white-color);
-  border-radius: var(--radius);
+.btn {
+  background-color: transparent;
   border: none;
+  outline: none;
+  cursor: pointer;
+  transition: transform var(--animation-duration) ease;
+  margin-right: var(--base-space);
 }
 
-#blue {
-  background-color: var(--blue-color);
+.imgBtn {
+  width: var(--size-button);
+  height: var(--size-button);
 }
 
-#yellow {
-  background-color: var(--yellow-color);
+.colorBtn {
+  font-size: var(--font-size);
+  padding: calc(var(--base-space) * 2);
+  border-radius: var(--size-border);
 }
 
-#red {
-  background-color: var(--red-color);
+.blue {
+  background-color: var(--color-blue);
 }
 
-.clothes_list {
+.yellow {
+  background-color: var(--color-yellow);
+}
+
+.pink {
+  background-color: var(--color-pink);
+}
+
+.items {
+  width: 60%;
+  height: 60%;
   list-style: none;
-  text-align: center;
-  padding: var(--padding);
-  margin: var(--margin);
+  padding-left: 0;
+  overflow-y: scroll;
 }
 
-.clothes_list .clothes {
+.item {
+  background-color: var(--color-white);
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  width: 600px;
-  margin: var(--margin);
-  height: 50px;
-  border-radius: var(--radius);
-  background-color: var(--white-color);
-  font-size: var(--font-medium);
-  font-weight: bold;
+  padding: var(--base-space);
+  margin-bottom: var(--base-space);
+}
+
+.item__thumbnail {
+  width: var(--size-thumbnail);
+  height: var(--size-thumbnail);
+}
+
+.item__description {
+  margin-left: var(--base-space);
+  font-size: var(--font-size);
 }
 
 .hidden {
